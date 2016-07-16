@@ -16,7 +16,7 @@ The provided boilerplate enables client-side ES6 via the following technologies:
 - [Chai](http://chaijs.com/) as a BDD assertion library that works along with `Mocha`.
 
 ## 启动
-
+  * `$ npm install`
   * `$ npm start`
   * Point your browser to http://localhost:3000/, page hot reloads automatically when there are changes
 

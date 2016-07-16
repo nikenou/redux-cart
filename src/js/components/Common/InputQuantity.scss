@@ -1,0 +1,47 @@
+/*------start 数量加减控件样式------*/
+.input-quantity {
+  width: 102px;
+  margin: 0 auto;
+  border: 1px solid #cfcfd2;
+  .opt {
+    float: left;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background: #f8f8f8;
+    //border: 1px solid #cfcfd2;
+    font-family: "宋体";
+    cursor: pointer;
+
+    &.disabled {
+      background: #f3f3f3;
+      cursor: not-allowed;
+      color: #bbb;
+    }
+
+    &:first-child {
+      //border-right: 0;
+    }
+
+    &:last-child {
+      //border-left: 0;
+    }
+  }
+
+  .input-text {
+    float: left;
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #333;
+    border-left: 1px solid #cfcfd2;
+    border-right: 1px solid #cfcfd2;
+  }
+
+  .unit {
+    margin-left: .32rem;
+  }
+}
+/*------end 数量加减控件样式------*/

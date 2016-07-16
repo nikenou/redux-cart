@@ -1,6 +1,4 @@
-/**
- * Created by Soon on 9/14/2015.
- */
+import './InputQuantity.scss';
 
 import React, { PropTypes } from 'react';
 import { Map } from 'immutable';
@@ -81,7 +79,7 @@ export default class InputQuantity extends React.Component {
     });
 
     return (
-      <div className="input-quantity fn-clear">
+      <div className="input-quantity fix">
         <span className={minClass} onClick={this.handleMinus} >-</span>
         <input className="input-text" value={quantity} onChange={this.handleChange} />
         <span className="opt opt-add" onClick={this.handleAdd} >+</span>

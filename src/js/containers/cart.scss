@@ -1,0 +1,166 @@
+
+/*------cart------*/
+
+/*购物车内容*/
+.shoppingCart{
+  padding: 40px 0;
+
+  .title {
+    line-height: 18px;
+    font-family: "microsoft yahei";
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  .noGoods {
+    width: 300px;
+    padding: 100px 0 100px 80px;
+    margin: 0 auto;
+    line-height:30px;
+    .toLogin{
+      padding: 6px 12px;
+      margin-right:5px;
+      color: #fff;
+      background: #ed6c00;
+      border-radius:2px;
+    }
+  }
+
+}
+
+.tableCart {
+  table {
+    border: 1px solid #e7e7e7;
+    th {
+      background: #f8f8f8;
+      padding: 0 10px;
+      line-height: 40px;
+      text-align: center;
+    }
+    tr {
+      &:hover {
+        td {
+          background: #fafafa;
+        }
+      }
+    }
+    td{
+      padding: 5px 10px;
+      text-align: center;
+      border-top: 1px solid #e7e7e7;
+    }
+  }
+  .textLeft{
+    text-align: left;
+  }
+  .cartImg {
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .message{
+    padding-top: 5px;
+    color: #999;
+  }
+  b {
+    &.pPrice {
+      font-weight: normal;
+      font-size: 14px;
+      color: #ed6c00;
+    }
+  }
+  p {
+    &.pSave {
+      color: #489E49;
+    }
+  }
+  .pInventory {
+    padding-top:40px;
+    color:#db3143;
+  }
+  .selectAll{
+    text-align: left;
+    input{
+      float: left;
+      margin: 15px 2px 0 10px;
+    }
+  }
+}
+
+.balance {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 150px;
+  margin-top: 20px;
+  border: 1px solid #e7e7e7;
+  .selectAll {
+    float: left;
+    padding: 0 40px 0 10px;
+    input {
+      float: left;
+      margin: 20px 3px 0 10px;
+    }
+  }
+  span {
+    padding-right: 20px;
+  }
+  b {
+    &.pPrice {
+      font-weight: normal;
+      font-size: 20px;
+      color: #ed6c00;
+    }
+  }
+  .balanceLink {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 150px;
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+    background: #e7e7e7;
+    cursor: not-allowed;
+    &:hover {
+      color: #999;
+    }
+  }
+  .checked {
+    color: #fff;
+    background: #f18e3d;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+      background: #ed6c00;
+    }
+  }
+  .redirectTo {
+    margin-left: 48px;
+  }
+  .buyAgain {
+    padding-top: 10px;
+    text-align: right;
+    a {
+      float: right;
+      width: 150px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 20px;
+      color: #999;
+      background: #e7e7e7;
+      &:hover {
+        color: #888;
+        background: #ddd;
+      }
+    }
+  }
+}
+
+/*end 购物车内容*/
+
+/*------end 购物车------*/

@@ -7,7 +7,6 @@ import Dialog from 'rc-dialog';
 export default class CartList extends Component {
 
   static propTypes = {
-    customerCode: PropTypes.string.isRequired,
     cart: PropTypes.array.isRequired,
     fetchSuccess: PropTypes.bool,
     totalPrice: PropTypes.number,
@@ -22,7 +21,6 @@ export default class CartList extends Component {
     super(props);
     this.state = {
       total: 0,
-      customerCode: '',
       deleteDialogVisible: false,
       deleteCartCode: 0,
       warmDialogVisible: false,
@@ -127,7 +125,7 @@ export default class CartList extends Component {
 
   /** 点击结算按钮 **/
   handleCartCheckoutClick = ()=> {
-    const { dispatch, customerCode, cart, totalPrice, fetchSuccess } = this.props;
+    const { dispatch, cart, totalPrice, fetchSuccess } = this.props;
     //const { customerCode } = this.state;
     const hasSelectOne = cart.some((node) => {
       return node.entries.some(entry => entry.isChecked == true)

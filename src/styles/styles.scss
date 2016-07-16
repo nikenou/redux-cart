@@ -1,4 +1,19 @@
-body {
-  background: #f1f1f1;
-  padding-top: 30px;
-}
+html { color: #666; background-color: #f6f6f6; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 '微软雅黑', tahoma, arial, \5b8b\4f53 }
+input, select, textarea { font-size: 100%; border: none; padding: 0; outline: none; }
+ol, ul { list-style: none }
+
+/*a:link { color: #333; }*/
+
+/*a:visited { color: #666; }*/
+a:hover { color: #f60; }
+a:active { color: #f60; outline: none; }
+ins, a { color: #666; outline: none; text-decoration: none }
+img { border: none; vertical-align: top; }
+
+/* 浮动 */
+.fix { zoom: 1; }
+.fix:after { display: block; content: ""; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.fl-l { float: left; }
+.fl-r { float: right; }
